@@ -1,4 +1,10 @@
-package domain;
+/*
+Aneeqah Talaaboedien
+Student number 219099405
+March 2026
+*/
+
+package za.ac.cput.domain;
 
 public class User {
     private String userId;
