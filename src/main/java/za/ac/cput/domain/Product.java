@@ -57,6 +57,13 @@ public class Product {
             return this;
         }
 
+        public Builder copy(Product product){
+            this.productId = product.productId;
+            this.productName = product.productName;
+            this.price = product.price;
+            return this;
+        }
+
         public Product build() {
             return new Product(this);
         }

@@ -29,22 +29,22 @@ class ProductTest {
 
     @Test
     void testCopy() {
-        // Creating initial product
+
         Product product1 = new Product.Builder()
                 .setProductId("P123")
                 .setProductName("Gaming Laptop")
                 .setPrice(25000.00)
                 .build();
 
-        // Testing the copy() method to create a modified version
+
         Product product2 = new Product.Builder()
                 .copy(product1)
-                .setPrice(22000.00) // Changing price in the copy
+                .setPrice(22000.00)
                 .build();
 
         assertNotNull(product2);
-        assertEquals(product1.getProductId(), product2.getProductId()); // ID remains same
-        assertNotEquals(product1.getPrice(), product2.getPrice()); // Price is different
+        assertEquals(product1.getProductId(), product2.getProductId());
+        assertNotEquals(product1.getPrice(), product2.getPrice());
         System.out.println("Original: " + product1);
         System.out.println("Copied & Updated: " + product2);
     }
