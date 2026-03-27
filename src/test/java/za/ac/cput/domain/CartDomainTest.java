@@ -9,8 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class CartDomainTest {
 
     private Cart cart;
-    private final String TEST_CART_ID = "CRT-001";
-    private final String TEST_USER_ID = "USER-ABC";
+    private  String TEST_CART_ID = "CRT-001";
+    private  String TEST_USER_ID = "USER-ABC";
 
     @BeforeEach
     void setUp() {
