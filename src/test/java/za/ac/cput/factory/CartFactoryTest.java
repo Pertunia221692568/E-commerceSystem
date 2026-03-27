@@ -1,8 +1,7 @@
-package za.ac.cput.repository;
+package za.ac.cput.factory;
 
 import org.junit.jupiter.api.Test;
 import za.ac.cput.domain.Cart;
-import za.ac.cput.factory.CartFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
